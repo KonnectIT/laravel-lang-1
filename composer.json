@@ -7,9 +7,15 @@
         "overtrue"
     ],
     "require": {
-        "caouecs/laravel-lang": "~3.0",
+        "caouecs/laravel-lang": "dev-master",
         "symfony/process": "^3.0|^4.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/KonnectIT/Laravel-lang"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Overtrue\\LaravelLang\\": "src/"
